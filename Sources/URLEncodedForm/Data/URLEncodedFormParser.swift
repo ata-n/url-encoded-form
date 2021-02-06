@@ -1,4 +1,4 @@
-import Core
+import Foundation
 
 /// Converts `Data` to `[String: URLEncodedFormData]`.
 final class URLEncodedFormParser {

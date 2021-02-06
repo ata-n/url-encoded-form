@@ -6,12 +6,9 @@ let package = Package(
     products: [
         .library(name: "URLEncodedForm", targets: ["URLEncodedForm"]),
     ],
-    dependencies: [
-        // 🌎 Utility package containing tools for byte manipulation, Codable, OS APIs, and debugging.
-        .package(url: "https://github.com/vapor/core.git", from: "3.0.0"),
-    ],
+    dependencies: [],
     targets: [
-        .target(name: "URLEncodedForm", dependencies: ["Core"]),
+        .target(name: "URLEncodedForm", dependencies: []),
         .testTarget(name: "URLEncodedFormTests", dependencies: ["URLEncodedForm"]),
     ]
 )

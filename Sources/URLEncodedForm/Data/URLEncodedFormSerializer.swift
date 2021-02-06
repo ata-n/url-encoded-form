@@ -1,4 +1,4 @@
-import Bits
+import Foundation
 
 /// Converts `[String: URLEncodedFormData]` structs to `Data`.
 final class URLEncodedFormSerializer {
